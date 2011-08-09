@@ -22,16 +22,7 @@ https://dev.twitter.com/pages/auth for the details.
 
 Basically you will need to login to https://dev.twitter.com and create an application.
 Once you have an application registered with Twitter you will be able to create the
-oauth keys below on the application details page.
-
-Once you have access to the values place them in:
-
-tweetstream/src/main/resources/twitter4j.properties: 
-
-    oauth.consumerKey=**************************
-    oauth.consumerSecret=**************************
-    oauth.accessToken=**************************
-    oauth.accessTokenSecret=**************************
+oauth keys on the application details page.
 
 Step 2: Running on OpenShift
 ----------------------------
@@ -47,6 +38,17 @@ Add this upstream seambooking repo
     cd tweet
     git remote add upstream -m master git://github.com/openshift/tweetstream-example.git
     git pull -s recursive -X theirs upstream master
+    
+Edit tweetstream/src/main/resources/twitter4j.properties and add twitter API keys
+
+    oauth.consumerKey=
+    oauth.consumerSecret=
+    oauth.accessToken=
+    oauth.accessTokenSecret=
+    
+Commit this edit
+
+    git commit -a -m "add my API creds for twitter"
 
 Then push the repo upstream
 
@@ -55,4 +57,3 @@ Then push the repo upstream
 That's it, you can now checkout your application at:
 
     http://tweet-$yourlogin.rhcloud.com
-
