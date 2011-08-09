@@ -18,5 +18,5 @@
   -->
 
 <jboss-web>
-    <context-root>tweetstream</context-root>
+    <context-root></context-root>
 </jboss-web>
