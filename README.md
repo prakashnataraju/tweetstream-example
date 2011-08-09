@@ -7,8 +7,8 @@ multiple devices.  The backend and web interface runs on OpenShift.
 The steps for deploying this application are simple.  The only preqrequisite is to
 have your own Twitter API access credentials.
 
-1. Configure Twitter4j
-----------------------
+Step 1: Configure Twitter4j
+---------------------------
 Everything is setup and configured for twitter4j except the API 
 credentials.  We can not provide public credentials for accessing 
 twitter API's via twitter4j.  This mean you will need to get and 
@@ -33,8 +33,8 @@ tweetstream/src/main/resources/twitter4j.properties:
     oauth.accessToken=**************************
     oauth.accessTokenSecret=**************************
 
-2. Running on OpenShift
------------------------
+Step 2: Running on OpenShift
+----------------------------
 
 Create an account at http://openshift.redhat.com/
 
