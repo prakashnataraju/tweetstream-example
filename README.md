@@ -56,4 +56,4 @@ Then push the repo upstream
 
 That's it, you can now checkout your application at:
 
-    http://tweet-$yourlogin.rhcloud.com
+    http://tweet-$yournamespace.rhcloud.com
