@@ -115,7 +115,7 @@ of use.  The following list are some common variables but far from exhaustive:
     System.getenv("OPENSHIFT_DATA_DIR")  - For persistent storage (between pushes)
     System.getenv("OPENSHIFT_TMP_DIR")   - Temp storage (unmodified files deleted after 10 days)
 
-When embedding a database using rhc-ctl-app, you can reference environment
+When embedding a database using 'rhc app cartridge add', you can reference environment
 variables for username, host and password:
 
     System.getenv("OPENSHIFT_DB_HOST")      - DB host
