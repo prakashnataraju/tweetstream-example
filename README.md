@@ -29,7 +29,7 @@ Step 2: Running on OpenShift
 
 Create an account at http://openshift.redhat.com/
 
-Create a jbossas-7.0 application
+Create a jbossas-7 application
 
     rhc app create -a tweet -t jbossas-7.0
 
