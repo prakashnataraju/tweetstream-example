@@ -159,11 +159,11 @@ public class TweetStreamListener implements StatusListener, Serializable {
    }
 
 
-	@Override
-	public void onStallWarning(StallWarning arg0) {
+	//@Override
+	//public void onStallWarning(StallWarning arg0) {
 		// TODO Auto-generated method stub
 		
-	}
+	//}
 
 
 }
