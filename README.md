@@ -29,9 +29,9 @@ Step 2: Running on OpenShift
 
 Create an account at http://openshift.redhat.com/
 
-Create a jbossas-7 application
+Create a jbossas application
 
-    rhc app create -a tweet -t jbossas-7
+    rhc app create tweet jbossas-7
 
 Add this upstream seambooking repo
 
