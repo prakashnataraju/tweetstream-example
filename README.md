@@ -4,7 +4,7 @@ TweetStream on OpenShift
 This is an application that pulls content from twitter and supports displaying it on
 multiple devices.  The backend and web interface runs on OpenShift.
 
-The steps for deploying this application are simple.  The only preqrequisite is to
+The steps for deploying this application are simple.  The only prerequisite is to
 have your own Twitter API access credentials.
 
 Step 1: Configure Twitter4j
